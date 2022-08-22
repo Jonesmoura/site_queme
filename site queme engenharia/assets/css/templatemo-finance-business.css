@@ -172,11 +172,11 @@ a.border-button:hover {
 }
 
 /* Sub Header Style */
-
+/* Cor e tamanho da faixa superior do site */
 .sub-header {
 	background-color: #4F4F4F;
-	height: 46px;
-	line-height: 46px;
+	height: 33px;
+	line-height: 33px;
 }
 
 .sub-header ul li {
