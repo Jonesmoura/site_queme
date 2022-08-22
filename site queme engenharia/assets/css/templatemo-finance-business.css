@@ -398,6 +398,10 @@ header .navbar {
 	background-image: url(../images/slide_03.jpg);
 }
 
+.Modern-Slider .item-4 .img-fill {
+	background-image: url(../images/slide_04.jpg);
+}
+
 .Modern-Slider .NextArrow{
   position:absolute;
   top:50%;
@@ -631,7 +635,7 @@ ul.slick-dots {
 
 .count-digit {
     margin: 5px 0px;
-    color: #4F4F4F;
+    color: #aeaeae;
     font-weight: 700;
     font-size: 36px;
 }
