@@ -1306,9 +1306,17 @@ footer .contact-form button.filled-button:hover {
 	.contact-item {
 		margin-bottom: 30px;
 	}
+	#contatoServicos {
+		width: 80%!important;
+	}
 }
 
 @media (max-width: 992px) {
+
+	#contatoServicos {
+		width: 70%!important;
+	}
+
 	.navbar .navbar-brand {
 		position: absolute;
 		left: 30px;
