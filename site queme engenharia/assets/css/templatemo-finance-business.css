@@ -12,6 +12,7 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #eee;
 }
 p {
 	margin-bottom: 0px;
@@ -251,7 +252,7 @@ header .navbar {
 .background-header {
 	top: 0;
 	position: fixed;
-	background-color: #fff!important;
+	background-color: #eee!important;
 	box-shadow: 0px 1px 10px rgba(0,0,0,0.1);
 }
 .background-header .navbar-brand h2 {
@@ -651,7 +652,7 @@ ul.slick-dots {
 /* More Info */
 
 .more-info {
-	margin-top: 140px;
+	margin-top: 90px;
 }
 
 .more-info .left-image img {
@@ -708,7 +709,7 @@ ul.slick-dots {
 }
 
 .testimonials {
-	margin-top: 140px;
+	margin-top: 90px;
 	background-color: #f7f7f7;
 	padding: 140px 0px;
 }
@@ -749,12 +750,12 @@ ul.slick-dots {
 
 .callback-services {
 	border-top: 1px solid #eee;
-	padding-top: 140px;
+	padding-top: 90px;
 }
 
 .contact-us {
 	background-color: #f7f7f7;
-	padding: 140px 0px;
+	padding: 90px 0px;
 }
 
 .contact-us .contact-form {
@@ -763,7 +764,7 @@ ul.slick-dots {
 }
 
 .callback-form {
-	margin-top: 140px;
+	margin-top: 90px;
 }
 
 .callback-form .contact-form {
@@ -877,7 +878,7 @@ ul.slick-dots {
 }
 
 .partners {
-	margin-top: 140px;
+	margin-top: 90px;
 	background-color: #f7f7f7;
 	padding: 60px 0px;
 }
@@ -1090,8 +1091,8 @@ footer .contact-form button.filled-button:hover {
 
 .team {
 	background-color: #f7f7f7;
-	margin-top: 140px;
-	margin-bottom: -140px;
+	margin-top: 90px;
+	margin-bottom: -90px;
 	padding: 120px 0px;
 }
 
@@ -1128,7 +1129,7 @@ footer .contact-form button.filled-button:hover {
 /* Single Service */
 
 .single-services {
-	margin-top: 140px;
+	margin-top: 90px;
 }
 
 #tabs ul {
@@ -1199,7 +1200,7 @@ footer .contact-form button.filled-button:hover {
 /* Contact Information */
 
 .contact-information {
-	margin-top: 140px;
+	margin-top: 90px;
 }
 
 .contact-information .contact-item {
@@ -1347,6 +1348,11 @@ footer .contact-form button.filled-button:hover {
 		color: #D3D3D3!important;
 		border-bottom: none!important;
 	}
+	.map-responsive
+	{
+		width: 300px;
+		height: 250px;
+	}
 }
 
 .float{
@@ -1370,4 +1376,10 @@ footer .contact-form button.filled-button:hover {
 
 h2#titulo {
 	margin-left: 10px;
+}
+
+div#div-insta {
+	width: 55%;
+	height: 75%;
+	padding-bottom: 20px;
 }
