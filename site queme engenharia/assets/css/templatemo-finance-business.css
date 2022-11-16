@@ -1417,3 +1417,24 @@ div#div-insta {
 #contatoServicos {
 	width: 30%;
 }
+
+.gotopbtn{
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	background: #29302c;
+	bottom: 40px;
+	left: 20px;
+	border-radius: 30px;
+  
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	color: white;
+	font-size: 22px;
+
+  }
+
+  html{
+	scroll-behavior: smooth;
+  }
