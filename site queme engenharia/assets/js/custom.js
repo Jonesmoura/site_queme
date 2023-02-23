@@ -143,3 +143,9 @@ jQuery( document ).ready(function( $ ) {
     })
  
 });
+
+function AlertaEmail (){
+
+alert('E-mail Enviado!')
+
+}
