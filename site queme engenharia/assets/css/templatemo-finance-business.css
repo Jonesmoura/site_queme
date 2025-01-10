@@ -566,6 +566,7 @@ ul.slick-dots {
 .service-item .down-content {
 	background-color: #f7f7f7;
 	padding: 30px;
+	/* height: 345px; */
 }
 
 .service-item .down-content h4 {
@@ -1082,6 +1083,10 @@ footer .contact-form button.filled-button:hover {
 	display: block;
 }
 
+.projectTypeDescription {
+
+	font-size: 16px;
+}
 
 /* team */
 
@@ -1228,6 +1233,9 @@ footer .contact-form button.filled-button:hover {
 	font-size: 15px;
 }
 
+.descriptionServiceTitle{
+	font-size: 16px;
+}
 
 
 
@@ -1319,6 +1327,7 @@ footer .contact-form button.filled-button:hover {
 	}
 }
 
+
 @media (max-width: 992px) {
 
 	.sub-header ul.left-info li a {
@@ -1379,6 +1388,17 @@ footer .contact-form button.filled-button:hover {
 		width: 100%!important;
 		height: 100%!important;
 	}
+
+	.down-content{
+		height: auto;
+	}
+
+}
+
+@media screen and (min-width: 993px) {
+	.down-content{
+		height: 330px;
+	}
 }
 
 .float{
@@ -1438,3 +1458,5 @@ div#div-insta {
   html{
 	scroll-behavior: smooth;
   }
+
+  
